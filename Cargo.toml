@@ -1,0 +1,8 @@
+[package]
+name = "exper-surrealdb-kv-mem-fails-sometimes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+surrealdb = { version = "1.5.1", features = ["kv-mem", "sql2"] }
+tokio = "1.38.0"
